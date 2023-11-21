@@ -1,0 +1,57 @@
+﻿@page "/"
+@inherits ZooAnimalsBase
+<PageTitle>Zoo Catalog</PageTitle>
+<h1>Zoo Catalog</h1>
+<div class="row mb-4">
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary" @onclick="CreateZooAnimal">Add New Animal</button>
+    </div>
+</div>
+@if(Animals == null)
+{
+    <h3>Loading data........</h3>
+}
+else
+{
+    <DeleteAnimal Animal="currentAnimal" OnClose="OnDeleteModalClose">
+
+    </DeleteAnimal>
+
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Species</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var animal in Animals)
+            {
+                <tr>
+                    <td>@animal.Name</td>
+                    <td>@animal.Species</td>
+                    <td>@animal.Age</td>
+                    <td>@animal.Gender</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="(() => EditAnimal(animal.Id))">
+                            <i class="oi oi-pencil"></i>
+                        </button>
+                        <button class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteModal"
+                                @onclick="(() => SetCurrentAnimal(animal))">
+                            <i class="oi oi-x"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+

@@ -1,0 +1,52 @@
+﻿@page "/animal"
+@page "/animal/{id:int}"
+@inherits EditAnimalBase
+<PageTitle>@title</PageTitle>
+<h1>Animal Catalog</h1>
+<h3>@title</h3>
+@if(newAnimal is null)
+{
+    <p><em>Loading.........</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-sm-4">
+            <EditForm Model="@newAnimal" OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator/>
+                <ValidationSummary/>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <InputText id="name" @bind-Value="newAnimal.Name" class="form-control"></InputText>
+                </div>
+                <div class="mb-3">
+                    <label for="species" class="form-label">Species:</label>
+                    <InputText id="species" @bind-Value="newAnimal.Species" class="form-control"></InputText>
+                </div>
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age:</label>
+                    <InputNumber id="age" @bind-Value="newAnimal.Age" class="form-control"></InputNumber>
+                </div>
+                <div class="mb-3">
+                    <label for="gender" class="form-label">Gender:</label>
+                    <InputSelect id="gender" @bind-Value="newAnimal.Gender" class="form-select">
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </InputSelect>
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+            </EditForm>
+        </div>
+    </div>
+}
+@code {
+    // private AnimalDto newAnimal = new()
+    //     {
+    //         Name = string.Empty,
+    //         Species = string.Empty,
+    //         Age = 0,
+    //         Gender = string.Empty
+    //     };
+}

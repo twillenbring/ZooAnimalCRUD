@@ -1,0 +1,11 @@
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\bin\Debug\net6.0\Zoo.Models.deps.json
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\bin\Debug\net6.0\Zoo.Models.dll
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\bin\Debug\net6.0\Zoo.Models.pdb
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\Zoo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\Zoo.Models.AssemblyInfoInputs.cache
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\Zoo.Models.AssemblyInfo.cs
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\Zoo.Models.csproj.CoreCompileInputs.cache
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\Zoo.Models.dll
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\refint\Zoo.Models.dll
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\Zoo.Models.pdb
+C:\Users\twill\OneDrive\Desktop\Blazor\TonyWillenbringZoo\Zoo.Models\obj\Debug\net6.0\ref\Zoo.Models.dll

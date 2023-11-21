@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Api", "Zoo.Api\Zoo.Api.csproj", "{A7AFBD94-E5F3-4C73-B8E9-B633FDE4DEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Web", "Zoo.Web\Zoo.Web.csproj", "{8A9AAA79-0B07-4B47-9382-0FB1485AF386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Models", "Zoo.Models\Zoo.Models.csproj", "{6290E9CD-AB63-4C51-AC7D-6D915C21ED0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7AFBD94-E5F3-4C73-B8E9-B633FDE4DEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AFBD94-E5F3-4C73-B8E9-B633FDE4DEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AFBD94-E5F3-4C73-B8E9-B633FDE4DEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AFBD94-E5F3-4C73-B8E9-B633FDE4DEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A9AAA79-0B07-4B47-9382-0FB1485AF386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9AAA79-0B07-4B47-9382-0FB1485AF386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9AAA79-0B07-4B47-9382-0FB1485AF386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9AAA79-0B07-4B47-9382-0FB1485AF386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6290E9CD-AB63-4C51-AC7D-6D915C21ED0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6290E9CD-AB63-4C51-AC7D-6D915C21ED0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6290E9CD-AB63-4C51-AC7D-6D915C21ED0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6290E9CD-AB63-4C51-AC7D-6D915C21ED0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BB73B44-4D53-4E00-A2E0-353FDC98A976}
+	EndGlobalSection
+EndGlobal
